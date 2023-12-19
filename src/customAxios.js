@@ -2,7 +2,7 @@ import axios from "axios"; // 액시오스
 
 export default function customAxios(url, callback) {
   axios({
-    url: "/api" + url,
+    url: "/api" + url, //http://localhost:8080/ip
     method: "post",
 
     /**
